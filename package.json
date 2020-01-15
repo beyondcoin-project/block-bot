@@ -1,0 +1,23 @@
+{
+  "name": "block-bot",
+  "version": "1.0.0",
+  "description": "A node.js bot that notifies of new Beyondcoin blocks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beyondcoin-project/block-bot.git"
+  },
+  "author": "Kristian Kramer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beyondcoin-project/block-bot/issues"
+  },
+  "homepage": "https://github.com/beyondcoin-project/block-bot#readme",
+  "dependencies": {
+    "bitcoin-rpc-promise": "^2.1.6",
+    "discord.js": "^11.5.1"
+  }
+}
